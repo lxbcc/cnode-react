@@ -1,0 +1,46 @@
+.top{
+    width: 900px;
+    height: 30px;
+    line-height: 30px;
+    background-color: peachpuff;
+}
+.top a{
+    margin-left: 20px;
+    float: left;
+}
+.list{
+    float: left;
+    width: 100%;
+    height: 40px;
+    line-height: 30px;
+    background-color: #fff;
+    border:solid rgba(43, 38, 38, 0.26) 1px;
+}
+.img1{
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+.num{
+    float: left;
+    margin-left: 40px;
+    width: 100px;
+    line-height: 40px;
+}
+.title{
+    color:black;
+}
+.butts{
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    float: left;
+
+}
+.butt{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+}

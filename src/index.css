@@ -1,0 +1,63 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+body{
+    background-color: #ddd;
+}
+/* header */
+.headerwrap{
+    height: 50px;
+    background-color: #444;
+}
+.headerwrap header{
+    width: 1200px;
+    margin: 0 auto;
+}
+.headerwrap img{
+    margin-top: 10px;
+    width: 120px;
+}
+.headerwrap a{
+    margin: 0 20px;
+    color: #fff;
+}
+/* main */
+.main{
+    width: 1200px;
+    margin: 30px auto;
+}
+.content{
+    width: 900px;
+    float: left;
+    border: 2px solid red;
+}
+.sider{
+    width: 270px;
+    height: 500px;
+    float: right;
+    /* background-color: green; */
+    background-image: url(./components/makl.jpg);
+}
+.login-m{
+  width: 900px;
+  height: 400px;
+  background: #fff;
+}
+.login-in{
+  width: 350px;
+  height: 250px;
+  margin-left: 100px;
+  margin-top: 100px;
+  float: left;
+}
+.cc{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: purple;
+}
