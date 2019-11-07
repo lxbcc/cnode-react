@@ -15,13 +15,6 @@ export default class Good extends Component {
             this.setState({data:res.data});
         })
     }
-    // componentDidUpdate(){
-    //         fetch('https://cnodejs.org/api/v1/topics?tab=good&page='+this.state.page)
-    //             .then((res)=>res.json())
-    //             .then((res)=>{
-    //                     this.setState({data:res.data});
-    //                 })
-    //     }
     onChange=(e)=>{
         var page = e.target.innerHTML
         this.setState({
