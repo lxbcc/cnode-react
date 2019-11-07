@@ -18,13 +18,13 @@ export default class Share extends Component {
         })
     }
 
-    componentDidUpdate(){
-            fetch('https://cnodejs.org/api/v1/topics?tab=share&page='+this.state.page)
-                .then((res)=>res.json())
-                .then((res)=>{
-                        this.setState({data:res.data});
-                    })
-        }
+    // componentDidUpdate(){
+    //         fetch('https://cnodejs.org/api/v1/topics?tab=share&page='+this.state.page)
+    //             .then((res)=>res.json())
+    //             .then((res)=>{
+    //                     this.setState({data:res.data});
+    //                 })
+    //     }
 
     onChange=(e)=>{
         var page = e.target.innerHTML

@@ -6,7 +6,7 @@ import Api from './container/Api';
 import About from './container/About';
 import Start from './container/Start';
 import Login from './container/Login';
-import Context from './container/Home/Context';
+import Text from './container/Home/Text';
 export default class App extends Component {
     render() {
         return (
@@ -20,7 +20,7 @@ export default class App extends Component {
                         <Route path='/start' component={Start}/>
                         <Route path='/about' component={About}/>
                         <Route path='/login' component={Login}/>
-                        <Route path='/topics' component={Context}/>
+                        <Route path='/topics' component={Text}/>
                     </div>
                     <div className="sider">
                         {/* <img src="./components/makl.jpg" alt="" style={{width:'270px',height:'500px',float:'left'}}/> */}
